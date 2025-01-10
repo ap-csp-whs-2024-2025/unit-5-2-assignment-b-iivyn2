@@ -8,8 +8,39 @@ void displayList(std::vector<T> const &v);
 int main()
 {
     // You can follow along with any code in class here
-
+std::vector<std::sting> names = {"Peter", "Bruce", "Steve", "Tony", "Natasha", "Clint", "Wanda", "Hope", "Danny", "Carol"};
+std::vector<int> numbers = {100,50,10,1,2,7,11,17,53,-8, -4, -9, -72, -64, -80};
     
+//Problem 1 
+int curr_index = 0;
+while (curr_index <name.size())
+{
+    std::cout << names [curr_index] << " ";
+    curr_index = curr_index + 2; 
+}
+
+//problem 2
+curr_index = 0; 
+while (curr_index < numbers.size())
+{
+    if (number.size() MOD 2 = 0)
+    {
+        std::cout << numbers << " ";
+    }
+    curr_index = curr_index + 1;
+}
+
+//problem 5 
+curr_index=0;
+while (curr_index < names.size())
+{
+    if (name [curr_index] < "Thor")
+    {
+        std::cout << names [curr_index] << " ";
+    }
+    curr_index = curr_index + 1;
+}
+
     return 0;
 }
 
